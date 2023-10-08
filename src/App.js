@@ -5,11 +5,13 @@ import AboutSession from './components/aboutSession';
 import Clients from './components/clients';
 import Footer from './components/footer';
 import Learning from './components/learning';
+import LearningSession from './components/learningSessions';
 import TrendingSpeaker from './components/trendingSpeaker';
 function App() {
   return (
     <div >
       <AboutSession />
+      <LearningSession/>
       <AboutLiveSession/>
       <Learning />
       <Clients />

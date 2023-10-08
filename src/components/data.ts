@@ -10,3 +10,15 @@ export const trendingSpeaker: {
   { name: "Dr.Arogyaswami Velumani",image:'https://github.com/Deepak1095/esmagico/assets/111503473/db6a8552-3f47-4052-8975-3f9ae9a62c5a', role: "Founder Thyrocare", about: "Technologies" },
   { name: "Shashi Tharoor",image:"https://github.com/Deepak1095/esmagico/assets/111503473/18a3a017-fc39-4d22-b417-039644a9d959", role: "Member of Parliament Lok Sabha", about: "India National Congress" },
 ];
+
+
+export const learningSessionData: {
+  image:string;
+  about: string;
+}[] = [
+  { image:'https://github.com/Deepak1095/esmagico/assets/111503473/e51475b3-9ce7-4e8a-9cdf-b4becb2ed4fb', about: "Leadership and Executive coach" },
+  {image:'https://github.com/Deepak1095/esmagico/assets/111503473/2a24f39e-27fc-4751-9d43-7445d078b708', about: "Change Management and reboot Training" },
+  {image:'https://github.com/Deepak1095/esmagico/assets/111503473/df4ddebd-eca1-4180-937c-bda16e145c0c', about: "Employee Motivation and Engagement" },
+  {image:'https://github.com/Deepak1095/esmagico/assets/111503473/865864df-c711-453c-a57a-74b370a9b3c1',about: "Employee Upskill Sessions" },
+  {image:"https://github.com/Deepak1095/esmagico/assets/111503473/b68364fc-5213-43cc-bfb5-e45df7fa659a", about: "Soft skills Traning" },
+];
