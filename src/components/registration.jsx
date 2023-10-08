@@ -27,6 +27,7 @@ const Registration = () => {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
+      zIndex: 1000, 
     },
     content: {
       position: 'relative',
@@ -38,6 +39,7 @@ const Registration = () => {
       borderRadius: '8px',
       outline: 'none',
       padding: '0',
+      zIndex: 1001, 
     },
   };
   useEffect(() => {
@@ -45,17 +47,15 @@ const Registration = () => {
       setWindowWidth(window.innerWidth);
     };
 
-    // Add event listener for window resize
     window.addEventListener('resize', handleResize);
 
-    // Remove event listener when component unmounts
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
 
   return (
-    <div className='relative mt-44 md:mt-96 md:pb-96'>
+    <div className='relative mt-44 md:mt-96 md:pb-96 '>
       <div className='absolute inset-0 flex flex-col-reverse sm:flex-row items-center justify-center'>
         <div className="w-1/4 text-center ">
           <img src={img} alt="" className="absolute top-0 right-0 w-1/2 md:w-1/4" />
@@ -69,9 +69,13 @@ const Registration = () => {
             )}
           </div>
         ) : (
-          <div className="w-1/3 text-center absolute top-1/3 transform -translate-x-1/2 -translate-y-1/2" style={{ left: '30%' }}>
-            <RegistrationForm />
-          </div>
+            <div className="w-1/3 text-center absolute" style={{ top: 'calc(-15% - 10px)', left: '30%', transform: 'translate(-50%, -50%)' }}>
+  {isModalOpen ? null : (
+    <RegistrationForm />
+  )}
+</div>
+
+          
         )}
       </div>
       {isModalOpen ? null : (
@@ -101,7 +105,7 @@ const Registration = () => {
           />
         </div>
         <div className='w-full m-2 p-2 md:p-10 shadow-2xl bg-white '>
-          <div className="border-4 border-dashed rounded-sm md:p-10">
+          <div className=" rounded-sm md:p-10">
             <h1 className="text-2xl font-bold mb-4">Registration Form</h1>
             <RegistrationForm />
           </div>

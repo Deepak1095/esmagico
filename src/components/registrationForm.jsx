@@ -68,7 +68,22 @@ const RegistrationForm = () => {
                             name="date"
                         />
                     </div>
-
+                    <div className='text-start'>
+            <div>
+              <p className='text-[20px] sm:mb-2'>Topics of the Sessions</p>
+            </div>
+            <div className="flex flex-wrap">
+              <p className="flex-auto border border-gray-400 rounded-lg p-1 m-1 mb-4">
+                ✔ Motivation During Crisis
+              </p>
+              <p className="flex-auto border border-gray-400 rounded-lg p-1 m-1 mb-4">
+                ✔ Spirituality
+              </p>
+              <p className="flex-auto border border-gray-400 rounded-lg p-1 m-1 mb-4">
+                ✔ Business Leadership
+              </p>
+            </div>
+          </div>
                     <button
                         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-2xl  w-full"
                         type="submit"
