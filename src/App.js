@@ -7,11 +7,13 @@ import Footer from './components/footer';
 import Head from './components/head';
 import Learning from './components/learning';
 import LearningSession from './components/learningSessions';
+import Registration from './components/registration';
 import TrendingSpeaker from './components/trendingSpeaker';
 function App() {
   return (
     <div >
       <Head/>
+      <Registration/>
       <AboutSession />
       <LearningSession/>
       <AboutLiveSession/>

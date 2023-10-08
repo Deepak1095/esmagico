@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='bg-black width-full lg:flex justify-around sm:grid grid-cols-2 gap-4 pt-6 pb-6'>
             <div className='lg:w-1/3 sm:w-1 flex flex-col'>
                 <div className='mb-6'>
-                    <p className='text-white text-[24px] ' ><span className='text-[30px]'>speak<span className='text-blue-500'>in</span></span> is India's largest network of experts delivering business learning content</p>
+                    <p className='text-white p-4 md:p-2 text-[24px] ' ><span className='text-[30px]'>speak<span className='text-blue-500'>in</span></span> is India's largest network of experts delivering business learning content</p>
                 </div>
                 <div>
                     <p className='text-white pl-10'>©2020 SPEAKIN ALL RIGHT RESERVED</p>

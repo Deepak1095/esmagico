@@ -16,7 +16,7 @@ const Head = () => {
         <div className='bg-black bg-opacity-50 p-4 w-11/12 md:w-4/5'>
           <div className='flex flex-row'>
             <p className='text-white text-[16px] md:text-[40px]'>speak<span className='text-customBlue text-[16px] md:text-[40px]'>In</span>+</p>
-            <img src={zoom} alt="" className='w-6 h-6 md:w-1/5 md:h-1/4 rounded-sm md:rounded-lg md:ml-2 md:mt-2' />
+            <img src={zoom} alt="" className='w-6 h-6 md:w-1/5 md:h-auto rounded-sm md:rounded-lg md:ml-2 md:mt-2' />
           </div>
           <p className="text-[7px] md:text-[30px] text-white md:p-2 font-semibold"> = Your Own Live Session in &lt; 30 minutes</p>
 

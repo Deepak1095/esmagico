@@ -5,8 +5,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { trendingSpeaker } from './data.ts';
 const TrendingSpeaker = () => {
   return (
-    <div>
-      <div className="flex flex-col items-center justify-center mb-6 md:mb-16">
+    <div className='mb-10 '>
+      <div className="flex flex-col items-center justify-center md:mb-16">
         <h1 className="text-lg sm:text-1xl md:text-2xl lg:text-4xl font-semibold">Trending Speakers</h1>
       </div>
 
