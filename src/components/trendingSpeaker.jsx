@@ -6,22 +6,22 @@ import { trendingSpeaker } from './data.ts';
 const TrendingSpeaker = () => {
   return (
     <div>
-<div className="flex flex-col items-center justify-center mb-6 md:mb-16">
-  <h1 className="text-lg sm:text-1xl md:text-2xl lg:text-4xl font-semibold">Trending Speakers</h1>
-</div>
+      <div className="flex flex-col items-center justify-center mb-6 md:mb-16">
+        <h1 className="text-lg sm:text-1xl md:text-2xl lg:text-4xl font-semibold">Trending Speakers</h1>
+      </div>
 
-<div className="sm:block md:hidden">
+      <div className="sm:block md:hidden">
 
         <Carousel
           showThumbs={false}
           showStatus={false}
           infiniteLoop={true}
-          dynamicHeight={false} 
-          showArrows={true} 
-          showIndicators={false} 
+          dynamicHeight={false}
+          showArrows={true}
+          showIndicators={false}
           emulateTouch={true}
           swipeable={true}
-          centerMode={true} 
+          centerMode={true}
           centerSlidePercentage={33.33}
         >
           {trendingSpeaker.map((speaker, index) => (
@@ -47,7 +47,7 @@ const TrendingSpeaker = () => {
           />
         ))}
       </div>
-</div>
+    </div>
   )
 }
 
