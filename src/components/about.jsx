@@ -4,7 +4,7 @@ import fadeblue from "../assets/about/fadeblue.svg";
 
 const About = () => {
     return (
-        <div className='relative mb-12 md:mb-52 mt-12'>
+        <div className='relative mb-20 md:mb-72 mt-12'>
             <img src={fadeblue} alt="" className="absolute inset-0 z-10 w-full" />
             <img src={yellowBg} alt="" className="absolute inset-0 z-20 w-full" />
             <img
