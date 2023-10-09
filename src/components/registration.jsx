@@ -100,7 +100,7 @@ const Registration = () => {
         <div className="text-right">
           <FontAwesomeIcon
             icon={faTimes}
-            className="text-red-500 text-2xl cursor-pointer absolute top-2 right-2"
+            className="text-black text-2xl cursor-pointer absolute top-2 right-2"
             onClick={closeModal}
           />
         </div>

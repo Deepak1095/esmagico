@@ -3,12 +3,12 @@ import React from 'react'
 const RegistrationForm = () => {
     return (
         <div className='w-full md:p-10 shadow-2xl bg-white'>
-            <div className=" border-4 border-dashed rounded-sm p-10">
+            <div className=" border-4 border-dashed rounded-sm p-10 text-left">
 
                 <div className='text-center  items-center mb-2'>
-                    <p className='text-2xl md:text-4xl'>speak<span className='text-customBlue text-2xl md:text-4xl'>In</span></p>
-                    <p className="text-xl md:text-5xl font-bold md:mb-4">Welcome Form</p>
-                    <p className='text-sm md:text-2xl'>Submit Your Requirement</p>
+                    <p className='text-3xl md:text-5xl pb-1 md:pb-5'>speak<span className='text-customBlue text-3xl md:text-5xl'>In</span></p>
+                    <p className="text-xl md:text-3xl font-semibold md:mb-4 pb-2">Welcome Form</p>
+                    <p className='text-sm md:text-2xl pb-3'>Submit Your Requirement</p>
                 </div>
 
 
@@ -19,6 +19,7 @@ const RegistrationForm = () => {
                             className="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500"
                             type="text"
                             name="name"
+                            placeholder='Enter name'
                         />
                     </div>
 
@@ -28,6 +29,7 @@ const RegistrationForm = () => {
                             className="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500"
                             type="email"
                             name="email"
+                            placeholder='Enter email'
                         />
                     </div>
 
@@ -45,6 +47,7 @@ const RegistrationForm = () => {
                                 className="w-3/4 px-3 py-2 border rounded-r"
                                 type="tel"
                                 name="mobile"
+                                placeholder='+91'
                             />
                         </div>
                     </div>
@@ -57,6 +60,7 @@ const RegistrationForm = () => {
                             className="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500"
                             type="text"
                             name="organization"
+                            placeholder='Enter name'
                         />
                     </div>
 
@@ -66,6 +70,7 @@ const RegistrationForm = () => {
                             className="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500"
                             type="date"
                             name="date"
+                           
                         />
                     </div>
                     <div className='text-start'>

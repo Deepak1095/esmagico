@@ -10,7 +10,9 @@ const Head = () => {
   return (
     <div className="relative">
       <img src={hallImage} className='w-full h-full' alt="" />
-
+      <div className="absolute top-0 left-10 p-2">
+        <p className="text-[16px] md:text-[40px] text-white hidden md:block">speak<span className='text-customBlue text-[16px] md:text-[40px]'>In</span></p>
+      </div>
       <div className="absolute top-10 md:top-60 w-1/2 right-0 md:right-1/3 md:left-1/2 md:w-1/2">
         <p className="text-[16px] md:text-[50px] text-white p-2 font-semibold">Curate Your own Training Sessions with top Keynote Speakers</p>
         <div className='bg-black bg-opacity-50 p-4 w-11/12 md:w-4/5'>

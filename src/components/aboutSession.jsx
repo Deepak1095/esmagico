@@ -5,7 +5,7 @@ import front from "../assets/aboutSession/front.svg";
 const AboutSession = () => {
     return (
         <div className=' mb-8 md:mb-44 md:mt-24 mt-44'>
-            <p className=' text-[20px] md:text-[40px] font-semibold m-auto w-full text-center md:w-1/3 mt-96 '>Why Curate Your Own Sessions?</p>
+            <p className=' text-[20px] md:text-[40px] font-semibold m-auto w-full text-center md:w-1/3 mt-96 md:mt-44 '>Why Curate Your Own Sessions?</p>
             <div className='flex flex-col md:flex-row w-full md:w-3/4 m-auto mt-5 justify-between'>
                 <div style={{ position: 'relative' }} className='m-auto w-3/4 md:w-full'>
                     <img src={front} alt="" style={{ position: 'relative', zIndex: 2, top: '40px', left: "40px", bottom: '30px' }} />
