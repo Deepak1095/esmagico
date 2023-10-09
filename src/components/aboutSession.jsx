@@ -30,7 +30,7 @@ const AboutSession = () => {
                     </div>
                     <div className='flex justify-center items-center mb-4'>
                         <div className=" w-3 md:w-6 h-3 md:h-6 bg-[#538DD7] transform rotate-45"></div>
-                        <p className=' font-Poppins text-[12px] md:text-[18px] w-3/4 ml-10'><span className='text-[#538DD7]'>Exclusive expert sessions</span> on the topic of your choice</p>
+                        <p className=' font-Poppins text-[16px] md:text-[20px]  w-3/4 ml-10'><span className='text-[#538DD7]'>Exclusive expert sessions</span> on the topic of your choice</p>
                     </div>
                 </div>
             </div>

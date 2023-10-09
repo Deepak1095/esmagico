@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import hallImage from "../assets/head/hall.jpg";
+import hallImage from "../assets/head/Wallpaper.svg";
+import hallImage1 from "../assets/head/hall.jpg";
+
 import zoom from "../assets/head/zoom.jpg";
 import firstImage from "../assets/head/1.svg";
 import secondImage from "../assets/head/2.svg";
@@ -10,11 +12,15 @@ const Head = () => {
 
   return (
     <div className="relative">
-      <img src={hallImage} className='w-full h-full' alt="" />
-      <div className="absolute top-[19px] left-[130px]">
-      <img src={logo} alt="" className=' w-[48px] h-[14px] md:h-[28px] md:w-[99px] rounded-sm md:rounded-lg md:ml-2 md:mt-2 hidden md:block' />
-      </div>
-      <div className="absolute top-40 md:top-[138px]  left-[163] md:left-[800px]  w-[204px] h-[148px] md:h-[442px] md:w-[751px] ">
+       <img src={hallImage} className='w-full h-full' alt="" />
+  <div className="absolute top-0 left-0 w-full " style={{ background: 'linear-gradient(180deg, #081026 0%, rgba(7, 15, 35, 0.00) 100%)' }}>
+    <div className="container mx-auto p-1 mt-[19px] ml-[130px] mb-[33px]  w-[99px]">
+      <img src={logo} alt="" className='w-[48px] h-[14px] md:h-[28px] md:w-[99px] rounded-sm md:rounded-lg md:ml-2 md:mt-2 hidden md:block' />
+    </div>
+  </div>
+     
+     
+      <div className="absolute top-[40px] md:top-[138px]  left-[180px] md:left-[800px]  w-[204px] h-[148px] md:h-[442px] md:w-[700px]">
 
         <div className='w-[195px] h-[57px]  md:w-[700px] md:h-[183px] md:mb-4'>
           <p className="text-white font-Poppins text-[16px]  md:text-[46px] font-semibold leading-[131.6%] ">

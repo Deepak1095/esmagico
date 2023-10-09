@@ -80,8 +80,8 @@ const Registration = () => {
       </div>
       {isModalOpen ? null : (
    
-   <div className="absolute bottom-0 md:bottom-40 right-0 md:w-1/2">
-   <p className='font-Poppins text-[16px] md:text-[46px] font-semibold leading-[148%] w-1/2 z-10 relative' style={{ left: window.innerWidth <= 720 ? '0%' : '10%', transform: window.innerWidth <= 720 ? 'translateY(10%)' : 'translateY(-50%)' }}>
+   <div className="absolute bottom-0 md:bottom-40 right-10 md:right-0 md:w-1/2 ">
+   <p className='font-Poppins text-[16px] md:text-[46px] font-semibold leading-[148%] w-1/2 z-10 relative' style={{ left: window.innerWidth <= 720 ? '10%' : '10%', transform: window.innerWidth <= 720 ? 'translateY(0%)' : 'translateY(-50%)' }}>
      Grow with India's Largest Network of Experts
    </p>
  </div>

@@ -33,6 +33,8 @@ const LearningSession = () => {
                         swipeable={true}
                         centerMode={true}
                         centerSlidePercentage={33.33}
+                        autoPlay={true} 
+                        interval={1500} 
                     >
                         {learningSessionData.map((speaker, index) => (
                             <div key={index}>
@@ -44,7 +46,7 @@ const LearningSession = () => {
                         ))}
                     </Carousel>
                 </div>
-                <div className="hidden md:flex md:flex-wrap md:justify-center mb-10 border-4">
+                <div className="hidden md:flex md:flex-wrap md:justify-center mb-10">
                     {learningSessionData.map((speaker, index) => (
                         <div key={index}>
                             <LearningSessionCard

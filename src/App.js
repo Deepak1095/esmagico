@@ -17,11 +17,11 @@ function App() {
       <AboutSession />
       <LearningSession/>
       <AboutLiveSession/>
-      <Learning />
-      <Clients />
-      {/* <About /> */}
-      <TrendingSpeaker />
-      <Footer />
+      <Learning /> 
+      <Clients /> 
+      <About /> 
+      <TrendingSpeaker /> 
+      <Footer /> 
 
     </div>
 
