@@ -20,7 +20,7 @@ const Head = () => {
   </div>
      
      
-      <div className="absolute top-[40px] md:top-[138px]  left-[180px] md:left-[800px]  w-[204px] h-[148px] md:h-[442px] md:w-[700px]">
+      <div className="absolute top-[35px] md:top-[138px]  left-[40%] md:left-[800px]  w-[204px] h-[148px] md:h-[442px] md:w-[700px]">
 
         <div className='w-[195px] h-[57px]  md:w-[700px] md:h-[183px] md:mb-4'>
           <p className="text-white font-Poppins text-[16px]  md:text-[46px] font-semibold leading-[131.6%] ">
