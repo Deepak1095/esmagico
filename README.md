@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Speak In
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SpeakIn is a website whre users take live learning sessions with top keynote speakers.
 
-## Available Scripts
+## Dependencies
 
-In the project directory, you can run:
+To run this project, make sure you have Node.js and npm (Node Package Manager) installed on your system.
 
-### `npm start`
+# Install all project dependencies
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- FontAwesome for icons
+- Autoprefixer and PostCSS CLI for PostCSS processing
+- React and React DOM for building the application
+- React Modal for creating modals
+- React Responsive Carousel for carousels
+- Tailwind CSS for styling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tech Stacks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was built using the following technologies and tools:
 
-### `npm run build`
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly styling web applications.
+- **FontAwesome**: Provides a collection of customizable icons for use in your application.
+- **React Modal**: Used to create modals for displaying additional information or forms.
+- **React Responsive Carousel**: A responsive image carousel component for React applications.
+- **Autoprefixer and PostCSS CLI**: Used for processing CSS and adding vendor prefixes for better cross-browser compatibility.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+These technologies were chosen for their ability to speed up development, create responsive and visually appealing user interfaces, and facilitate testing and maintenance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Screenshots
+![Screenshot (1702)](https://github.com/Deepak1095/esmagico/assets/111503473/2e081d24-fb58-46ec-b279-15faf82d3f18)
+![Screenshot (1704)](https://github.com/Deepak1095/esmagico/assets/111503473/b2438f66-015c-4cf7-aab2-acf91da30ca3)
+![Screenshot (1705)](https://github.com/Deepak1095/esmagico/assets/111503473/4bff48e3-064d-48f6-a36f-318c07912a32)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
