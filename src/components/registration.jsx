@@ -61,7 +61,7 @@ const Registration = () => {
           <img src={img} alt="" className="absolute top-0 right-0 w-1/2 md:w-1/4" />
         </div>
         {window.innerWidth <= 720 ? (
-          <div className="w-1/3 text-center absolute top-1/3 transform -translate-x-1/2 -translate-y-1/2" style={{ left: '30%' }}>
+          <div className="w-full text-center absolute top-1/3 transform -translate-x-1/2 -translate-y-1/2" style={{ left: '30%' }}>
             {isModalOpen ? null : (
               <button className="bg-blue-500 text-white font-bold py-2 px-4 mt-20 rounded" onClick={openModal}>
                 Register
@@ -69,7 +69,7 @@ const Registration = () => {
             )}
           </div>
         ) : (
-            <div className="w-1/3 text-center absolute" style={{ top: 'calc(-15% - 10px)', left: '30%', transform: 'translate(-50%, -50%)' }}>
+            <div className="w-[596px] h-[954px] text-center absolute " style={{ top: 'calc(-15% - 10px)', left: '30%', transform: 'translate(-50%, -50%)' }}>
   {isModalOpen ? null : (
     <RegistrationForm />
   )}
@@ -80,12 +80,12 @@ const Registration = () => {
       </div>
       {isModalOpen ? null : (
    
-   <div className="absolute bottom-0 md:bottom-40 right-0">
-  <p className='text-[20px] md:text-[44px] text-semibold w-1/2 z-10 relative' style={{ left: window.innerWidth <= 720 ? '10%' : '20%', transform: 'translateY(-50%)' }}>
-    Grow with India's Largest Network of Experts
-  </p>
-</div>
-
+   <div className="absolute bottom-0 md:bottom-40 right-0 md:w-1/2">
+   <p className='font-Poppins text-[16px] md:text-[46px] font-semibold leading-[148%] w-1/2 z-10 relative' style={{ left: window.innerWidth <= 720 ? '0%' : '10%', transform: window.innerWidth <= 720 ? 'translateY(10%)' : 'translateY(-50%)' }}>
+     Grow with India's Largest Network of Experts
+   </p>
+ </div>
+ 
 
   
    
@@ -104,10 +104,9 @@ const Registration = () => {
             onClick={closeModal}
           />
         </div>
-        <div className='w-full m-2 p-2 md:p-10 shadow-2xl bg-white '>
-          <div className=" rounded-sm md:p-10">
-            <h1 className="text-2xl font-bold mb-4">Registration Form</h1>
-            <RegistrationForm />
+        <div className='w-full  md:p-10 shadow-2xl bg-white '>
+          <div className=" rounded-sm md:p-10 w-[358px] h-[756px]">
+            <RegistrationForm  />
           </div>
         </div>
       </Modal>

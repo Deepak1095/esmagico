@@ -13,9 +13,9 @@ const Learning = () => {
         <div className="bg-customBlue text-white flex flex-col md:flex-row pt-8 md:pt-20 md:pb-20 mb-12 md:mb-40">
             <div className="w-full md:w-1/2 p-4 md:pl-40 flex flex-col justify-center items-center">
                 <div className='w-3/4'>
-                    <p className='text-3xl md:text-5xl'>Real People</p>
-                    <p className='text-3xl md:text-5xl mb-4'>Real Learning</p>
-                    <p className='text-lg md:text-xl'>SpeakIn is Asia's largest on-demand network providing access to top regional speakers</p>
+                    <p className="font-Poppins text-[26px]  md:text-[42px] font-semibold leading-[95%]">Real People</p>
+                    <p className='font-Poppins text-[26px]  md:text-[42px] font-semibold leading-[95%]'>Real Learning</p>
+                    <p className='font-Poppins text-[12px]  md:text-[18px] font-normal leading-[157%] mt-[20px] w-3/4 md:w-full'>SpeakIn is Asia's largest on-demand network providing access to top regional speakers</p>
                 </div>
             </div>
 
@@ -29,6 +29,8 @@ const Learning = () => {
                     showIndicators={false}
                     emulateTouch={true}
                     swipeable={true}
+                    autoPlay={true} 
+                    interval={1500} 
                 >
                     {videoLinks.map((videoUrl, index) => (
                         <iframe

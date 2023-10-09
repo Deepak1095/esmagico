@@ -23,6 +23,8 @@ const TrendingSpeaker = () => {
           swipeable={true}
           centerMode={true}
           centerSlidePercentage={33.33}
+          autoPlay={true} 
+          interval={1500} 
         >
           {trendingSpeaker.map((speaker, index) => (
             <div key={index}>
@@ -36,7 +38,7 @@ const TrendingSpeaker = () => {
           ))}
         </Carousel>
       </div>
-      <div className="hidden md:flex md:flex-wrap md:justify-center mb-40">
+      <div className="hidden md:flex md:flex-wrap md:justify-center mb-30">
         {trendingSpeaker.map((speaker, index) => (
           <TrendingSpeakerCard
             key={index}

@@ -19,7 +19,7 @@ function App() {
       <AboutLiveSession/>
       <Learning />
       <Clients />
-      <About />
+      {/* <About /> */}
       <TrendingSpeaker />
       <Footer />
 
